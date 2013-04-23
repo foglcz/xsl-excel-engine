@@ -1,0 +1,4 @@
+utils/*
+!utils/sharedStringsConvertor.php
+showcase/*.xlsx
+showcase/*.xlsm

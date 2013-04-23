@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+    <data>
+        <name>First element</name>
+        <date>2013-04-01</date>
+        <barcode>TEST-010101</barcode>
+    </data>
+    <data>
+        <name>Second element</name>
+        <date>2013-04-02</date>
+        <barcode>TEST-020202</barcode>
+    </data>
+    <data>
+        <name>Third element</name>
+        <date>2013-04-03</date>
+        <barcode>TEST-030303</barcode>
+    </data>
+    <data>
+        <name>Fourth element</name>
+        <date>2013-04-04</date>
+        <barcode>TEST-040404</barcode>
+    </data>
+    <data>
+        <name>Fifth element</name>
+        <date>2013-04-05</date>
+        <barcode>TEST-050505</barcode>
+    </data>
+    <data>
+        <name>Sixth element</name>
+        <date>2013-04-06</date>
+        <barcode>TEST-060606</barcode>
+    </data>
+    <data>
+        <name>Seventh element</name>
+        <date>2013-04-07</date>
+        <barcode>TEST-070707</barcode>
+    </data>
+    <data>
+        <name>Eight element</name>
+        <date>2013-04-08</date>
+        <barcode>TEST-080808</barcode>
+    </data>
+    <data>
+        <name>Ninth element</name>
+        <date>2013-04-09</date>
+        <barcode>TEST-090909</barcode>
+    </data>
+    <data>
+        <name>Tenth element</name>
+        <date>2013-04-10</date>
+        <barcode>TEST-101010</barcode>
+    </data>
+    <data>
+        <name>Eleventh element</name>
+        <date>2013-04-11</date>
+        <barcode>TEST-111111</barcode>
+    </data>
+    <data>
+        <name>Twelfth element</name>
+        <date>2013-04-12</date>
+        <barcode>TEST-121212</barcode>
+    </data>
+    <data>
+        <name>Thirteenth element</name>
+        <date>2013-04-13</date>
+        <barcode>TEST-131313</barcode>
+    </data>
+    <data>
+        <name>Fourteenth element</name>
+        <date>2013-04-14</date>
+        <barcode>TEST-141414</barcode>
+    </data>
+    <data>
+        <name>Fifteenth element</name>
+        <date>2013-04-15</date>
+        <barcode>TEST-151515</barcode>
+    </data>
+    <data>
+        <name>Sixteenth element</name>
+        <date>2013-04-16</date>
+        <barcode>TEST-161616</barcode>
+    </data>
+    <data>
+        <name>Seventeenth element</name>
+        <date>2013-04-17</date>
+        <barcode>TEST-171717</barcode>
+    </data>
+    <data>
+        <name>Eighteenth element</name>
+        <date>2013-04-18</date>
+        <barcode>TEST-181818</barcode>
+    </data>
+    <data>
+        <name>Nineteenth element</name>
+        <date>2013-04-19</date>
+        <barcode>TEST-191919</barcode>
+    </data>
+    <data>
+        <name>Twentieth element</name>
+        <date>2013-04-20</date>
+        <barcode>TEST-202020</barcode>
+    </data>
+</data>
