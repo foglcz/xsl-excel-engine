@@ -14,7 +14,7 @@
         <xsl:param name="vbas" />
 
         <!-- Put the sheetX contents into correct places -->
-        <xsl:for-each select="$sheets">
+        <xsl:for-each select="$sheets/*">
             <xsl:result-document href="xl/worksheets/sheet{position()}.xml">
                 <xsl:copy-of select="." />
             </xsl:result-document>
