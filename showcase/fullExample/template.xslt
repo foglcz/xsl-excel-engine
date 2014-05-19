@@ -38,6 +38,39 @@
             </xdr:spPr>
         </image>
     </xsl:variable>
+    
+    <!-- another example:
+    <xsl:variable name="images">
+        <image>
+            <path>blank_image</path>
+            <ext>jpg</ext>
+            <mime>image/jpeg</mime>
+            <usedIn>
+                <sheet nr="1" />
+            </usedIn>
+            <xdr:from>
+                <xdr:col>1</xdr:col>
+                <xdr:colOff>10783</xdr:colOff>
+                <xdr:row>2</xdr:row>
+                <xdr:rowOff>10784</xdr:rowOff>
+            </xdr:from>
+            <xdr:to>
+                <xdr:col>4</xdr:col>
+                <xdr:colOff>596660</xdr:colOff>
+                <xdr:row>10</xdr:row>
+                <xdr:rowOff>190500</xdr:rowOff>
+            </xdr:to>
+            <xdr:spPr>
+                <a:xfrm>
+                    <a:off x="621821" y="2595114"/>
+                    <a:ext cx="2418990" cy="1703716"/>
+                </a:xfrm>
+                <a:prstGeom prst="rect">
+                    <a:avLst/>
+                </a:prstGeom>
+            </xdr:spPr>
+        </image>
+    </xsl:variable-->
 
     <xsl:variable name="contents">
         <worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="x14ac" xmlns:x14ac="http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac">

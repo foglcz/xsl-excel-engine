@@ -82,41 +82,11 @@
     <xsl:template name="generate_excel">
 
         <!-- Properties of the excel file -->
-        <xsl:param name="author">YOURCOMPANY Team</xsl:param>
+        <xsl:param name="author">xsl-excel-engine</xsl:param>
         <xsl:param name="sheetNames"><name>Sheet1</name></xsl:param>
 
         <!-- The drawings you are using in worksheets -->
-        <xsl:param name="images">
-            <image>
-                <path>blank_image</path>
-                <ext>jpg</ext>
-                <mime>image/jpeg</mime>
-                <usedIn>
-                    <sheet nr="1" />
-                </usedIn>
-                <xdr:from>
-                  <xdr:col>1</xdr:col>
-                  <xdr:colOff>10783</xdr:colOff>
-                  <xdr:row>2</xdr:row>
-                  <xdr:rowOff>10784</xdr:rowOff>
-                </xdr:from>
-                <xdr:to>
-                  <xdr:col>4</xdr:col>
-                  <xdr:colOff>596660</xdr:colOff>
-                  <xdr:row>10</xdr:row>
-                  <xdr:rowOff>190500</xdr:rowOff>
-                </xdr:to>
-                <xdr:spPr>
-                  <a:xfrm>
-                    <a:off x="621821" y="2595114"/>
-                    <a:ext cx="2418990" cy="1703716"/>
-                  </a:xfrm>
-                  <a:prstGeom prst="rect">
-                    <a:avLst/>
-                  </a:prstGeom>
-                </xdr:spPr>
-            </image>
-        </xsl:param>
+        <xsl:param name="images" select="()"/>
 
         <!-- default parameters -->
         <xsl:param name="themes"><xsl:copy-of select="$__blank_theme" /></xsl:param>
