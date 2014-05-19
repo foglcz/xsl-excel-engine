@@ -72,7 +72,7 @@ Licensed under MIT license. Full text of license available in `LICENSE.md` file.
 
 Authors
 -------
-Author of the engine is **Pavel Ptacek** | [@foglcz](https://twitter.com/foglcz) | [in/foglcz](http://www.linkedin.com/in/foglcz) | [birdie@animalgroup.cz](mailto:birdie@animalgroup.cz)
+Author of the engine is **Pavel Ptacek** and contributors | [@foglcz](https://twitter.com/foglcz) | [in/foglcz](http://www.linkedin.com/in/foglcz) | [birdie@animalgroup.cz](mailto:birdie@animalgroup.cz)
 
 This project has been created with love, in spare time. The main reason was to teach the ERP systems new & valid formats of excel - while in 2007 it was not suitable to generate xlsx formats, it's 2013 now. I think it's time we abandoned the `SpredsheetML` and started using `OpenXML` instead.
 
