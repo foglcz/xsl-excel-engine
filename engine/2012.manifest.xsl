@@ -19,12 +19,12 @@
         <xsl:result-document href="{encode-for-uri('[Content_Types].xml')}">
             <Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
                 <xsl:if test="$media">
-                <xsl:for-each select="$media/image">
+                <xsl:for-each-group select="$media/image" group-by="./ext">
                     <Default>
                         <xsl:attribute name="Extension" select="./ext" />
                         <xsl:attribute name="ContentType" select="./mime" />
                     </Default>
-                </xsl:for-each>
+                </xsl:for-each-group>
                 </xsl:if>
                 <xsl:call-template name="man_defaults" />
                 <xsl:call-template name="man_workbook"><xsl:with-param name="vbas"><xsl:copy-of select="$vbas" /></xsl:with-param></xsl:call-template>
